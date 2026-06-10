@@ -7,6 +7,7 @@ Jamal's **in-person, in-home personal training** business for the Rockaway penin
 - **Model:** Jay travels to client homes. 45-minute 1:1 sessions. Client provides dumbbells (~$50 shopping list if needed); Jay brings bands/mat.
 - **Pricing:** **flat $60/session** (founding-rate framing removed June 10 per Jamal — site shows one price, no crossed-out anchor). Per-session ONLY — cash/Venmo/Zelle. **No packages, ever** (Jamal's explicit rule). Raise path for new clients when ~70% booked lives in MARKETING_PLAN.md.
 - **Target:** gen-pop weight loss, 30–55, Belle Harbor / Neponsit / Rockaway Park / Rockaway Beach / Breezy Point / Broad Channel.
+- **Spearhead niche (June 10):** GLP-1 users (Ozempic/Wegovy/Zepbound) — "lose the fat, keep the muscle." Hero flag + dedicated section + FAQ on the site. Honest claim only: 25–40% of GLP-1 weight loss can be lean mass without resistance training ("studies show"). NEVER advise on meds (dosing/side effects/start/stop) — "ask your prescriber." Cert plan: NESTA GLP-1 Exercise Specialist ($149) + ACE anti-obesity-meds course ($69.95); add the NESTA title to the site only after he earns it.
 - **Contact CTA:** text (347) 671-2813 — same number as Liftaroo coaching.
 - **Liftaroo tie-in:** light. Sessions logged in Liftaroo (mentioned in About + footer). The $249/mo online coaching is a later upsell, not on this site.
 

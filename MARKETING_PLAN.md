@@ -18,6 +18,24 @@ Nobody offers in-home training on the peninsula — Svetness/FlexIt/Fyt claim Qu
 
 ---
 
+## The GLP-1 specialty (added June 10 — this is the spearhead)
+**Positioning:** "On a GLP-1? Lose the fat, keep the muscle." ~1 in 8 US adults is on a GLP-1 (KFF, late 2025); without resistance training, studies put lean-mass loss at 25–40% of total weight lost (STEP 1 / SURMOUNT-1 substudies; ACE's June 2025 review). Jay is the trainer who makes sure the loss is fat. Equinox/Life Time launched GLP-1 programs in 2024–25; nobody offers this in-home on the peninsula.
+
+**Credentials to buy (~$220 total):**
+1. **NESTA "GLP-1 Exercise Specialist" — $149** (nestacertified.com) — grants the marketable title. Put it on the site/cards once earned.
+2. **ACE "Supporting Clients on Anti-Obesity Medications" — $69.95** — cheap, solid science framework.
+- Skip NASM's $539+ Weight Loss Specialization. CSCS (in progress) is the real heavyweight credential for this niche; these two are the shingle.
+
+**Scope of practice (NY):** Non-RD nutrition coaching is legal in NY (title protection only — never use "certified nutritionist/dietitian"). Safe lane: program training, coach protein/habits as general guidance, track progress, coordinate with prescribers. NEVER advise on medication dosing, side effects, starting/stopping — always "ask your prescriber." Watch: NY bill S607 (nutrition licensure) passed Senate June 2025; even if enacted, general non-medical guidance stays legal. Add physician-clearance language to the intake/waiver.
+
+**GLP-1-specific channels (these are gold for this niche):**
+- **Prescriber referrals:** the medical practices and med spas in/near 11694 prescribing GLP-1s. Intro letter/visit: "I'm the local trainer who handles the muscle-preservation side; your patients keep their lean mass, your outcomes look better." One friendly prescriber = a client pipeline.
+- **Beach NY Physical Therapy** (already in the plan) doubly relevant here.
+- **Pharmacies** on Beach 116th/129th — counter cards.
+- **Facebook/Nextdoor angle:** GLP-1 posts massively outperform generic fitness posts right now ("If you're on Ozempic, please lift weights. Here's why." is a complete post).
+- **Content:** the "[Verb], Dumbass" machine can carry GLP-1 versions ("Lift, Dumbass: the Ozempic edition"). The honest stat IS the hook.
+- **Honest-claim rule:** always "studies show," always 25–40% range, never promise outcomes, never mention specific clients' meds.
+
 ## Phase 0 — Setup week (before promoting anything)
 All manual, all yours (console-side, in Liftaroo terms):
 
