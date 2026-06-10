@@ -34,7 +34,7 @@ Jamal's **in-person, in-home personal training** business for the Rockaway penin
 
 ## Open manual actions (Jamal, console-side)
 1. Register trainwithjay.nyc on Namecheap → connect in Netlify domain settings
-2. CPR/AED cert, liability insurance (~$189/yr — verify "cert in progress" eligibility)
+2. Liability insurance (~$189/yr — verify CSCS-"in progress" eligibility; CPR/AED ✅ done June 2026)
 3. Google Business Profile (service-area business, hide address)
 4. Photos for the site + GBP
 5. Waiver + PAR-Q forms (Claude drafts on request; lawyer review)

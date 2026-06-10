@@ -22,7 +22,7 @@ Nobody offers in-home training on the peninsula — Svetness/FlexIt/Fyt claim Qu
 All manual, all yours (console-side, in Liftaroo terms):
 
 1. **Register `trainwithjay.nyc`** on Namecheap (~$20–25/yr). `.com` is taken. `.nyc` requires a NYC address — you have one, and it's a *better* domain for a local business anyway. Then in Netlify → trainwithjay site → Domain settings → add custom domain → point Namecheap DNS at Netlify (I can walk you through it or do the Netlify side).
-2. **CPR/AED certification** if not current (~$60–90, half a day, Red Cross or AHA). Insurers expect it; clients' spouses ask about it.
+2. ~~**CPR/AED certification**~~ ✅ DONE — Jamal is certified (June 2026). Already on the site.
 3. **Liability insurance** — Insure Fitness Group ($189/yr, $1M/$3M) or NACAMS ($179/yr). **Verify on the phone that they'll bind coverage with your CSCS still in progress** and that it covers training at client locations (in-home). Do not train a stranger without this.
 4. **Waiver + PAR-Q health form** — one page each, signed before session one. I'll draft both when you say go (have a lawyer glance at the waiver; NY waivers have limits).
 5. **Google Business Profile** — the single highest-leverage 30 minutes in this plan. Create at business.google.com: "Train With Jay — In-Home Personal Training," service-area business (hide address, set service area: Rockaway Beach, Belle Harbor, Neponsit, Rockaway Park, Breezy Point, Broad Channel), category "Personal trainer," link the site, your number. This is what makes you show up for "personal trainer near me."
