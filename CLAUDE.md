@@ -15,7 +15,7 @@ Jamal's **in-person, in-home personal training** business for the Rockaway penin
 - **Repo:** github.com/jkhan626/trainwithjay (branch: master)
 - **Netlify site:** `trainwithjay` (project id d1b71177-b730-4175-bfc4-2e5db36f908a), live at https://trainwithjay.netlify.app
 - **Deploy:** `netlify deploy --prod --dir=.` from this folder (folder is netlify-linked). Repo is NOT wired to auto-deploy — manual deploys.
-- **Domain plan:** `trainwithjay.nyc` via Namecheap (trainwithjay.com is taken). Canonical/JSON-LD already point at trainwithjay.nyc.
+- **Domain:** `jaytraining.com` (primary, registered on Namecheap June 2026) + `rockawaytrainer.com` (301 redirect via `_redirects`). Both set on the Netlify site with www aliases. Canonical/JSON-LD point at jaytraining.com.
 
 ## Design system
 - Palette: sand `#FBF6EC` / deep sand `#F3EAD8` / ink `#16242F` / lifeguard orange `#E2572B` (deep `#C44320`) / seafoam `#7FB6A4`
@@ -33,7 +33,7 @@ Jamal's **in-person, in-home personal training** business for the Rockaway penin
 - `MARKETING_PLAN.md` — full launch plan (researched June 2026: pricing data, competitor scan, local channels with phone numbers, legal/insurance, demographics).
 
 ## Open manual actions (Jamal, console-side)
-1. Register trainwithjay.nyc on Namecheap → connect in Netlify domain settings
+1. ~~Domains~~ ✅ jaytraining.com + rockawaytrainer.com registered and added to Netlify — pending: Jamal pastes DNS records into Namecheap (A @ → 75.2.60.5, CNAME www → trainwithjay.netlify.app, on both domains)
 2. Liability insurance (~$189/yr — verify CSCS-"in progress" eligibility; CPR/AED ✅ done June 2026)
 3. Google Business Profile (service-area business, hide address)
 4. Photos for the site + GBP

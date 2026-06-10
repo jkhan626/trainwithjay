@@ -21,7 +21,7 @@ Nobody offers in-home training on the peninsula — Svetness/FlexIt/Fyt claim Qu
 ## Phase 0 — Setup week (before promoting anything)
 All manual, all yours (console-side, in Liftaroo terms):
 
-1. **Register `trainwithjay.nyc`** on Namecheap (~$20–25/yr). `.com` is taken. `.nyc` requires a NYC address — you have one, and it's a *better* domain for a local business anyway. Then in Netlify → trainwithjay site → Domain settings → add custom domain → point Namecheap DNS at Netlify (I can walk you through it or do the Netlify side).
+1. ~~**Register domain**~~ ✅ DONE — `jaytraining.com` (primary) + `rockawaytrainer.com` (redirect) registered June 2026 and wired into Netlify. Remaining: paste the DNS records into Namecheap (A `@` → `75.2.60.5`, CNAME `www` → `trainwithjay.netlify.app`, on both domains).
 2. ~~**CPR/AED certification**~~ ✅ DONE — Jamal is certified (June 2026). Already on the site.
 3. **Liability insurance** — Insure Fitness Group ($189/yr, $1M/$3M) or NACAMS ($179/yr). **Verify on the phone that they'll bind coverage with your CSCS still in progress** and that it covers training at client locations (in-home). Do not train a stranger without this.
 4. **Waiver + PAR-Q health form** — one page each, signed before session one. I'll draft both when you say go (have a lawyer glance at the waiver; NY waivers have limits).
@@ -89,4 +89,4 @@ You already post daily for Liftaroo. Don't build a new machine — add a local l
 ## Already done (this session)
 - Site live: **https://trainwithjay.netlify.app** (repo: github.com/jkhan626/trainwithjay)
 - Brand: Train With Jay · sand/ink/lifeguard-orange · Fraunces + Karla
-- Local SEO baked in: LocalBusiness JSON-LD with the full service area, geo meta, canonical → trainwithjay.nyc
+- Local SEO baked in: LocalBusiness JSON-LD with the full service area, geo meta, canonical → jaytraining.com; rockawaytrainer.com 301s to it
