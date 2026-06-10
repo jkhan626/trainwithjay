@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Trainer Rockaway Beach NY — In-Home Personal Training | Train With Jay</title>
+<meta name="description" content="At-home personal training in the Rockaways. Jay comes to you — Belle Harbor, Neponsit, Rockaway Park, Breezy Point. 45-minute sessions at your place. $75/session, no packages, no contracts. Text to book.">
+<link rel="canonical" href="https://trainwithjay.nyc/">
+<meta property="og:title" content="Train With Jay — At-Home Personal Training in the Rockaways">
+<meta property="og:description" content="I come to you. 45-minute sessions at your home — Belle Harbor, Neponsit, Rockaway Park, Breezy Point. No gym, no commute, no contracts.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://trainwithjay.nyc/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Train With Jay",
+  "description": "In-home personal training in the Rockaways, Queens NY. Trainer travels to your home for 45-minute one-on-one sessions.",
+  "url": "https://trainwithjay.nyc",
+  "telephone": "+13476712813",
+  "priceRange": "$60-$75 per session",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Rockaway Beach",
+    "addressRegion": "NY",
+    "postalCode": "11694",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    {"@type": "Place", "name": "Belle Harbor, Queens NY"},
+    {"@type": "Place", "name": "Neponsit, Queens NY"},
+    {"@type": "Place", "name": "Rockaway Park, Queens NY"},
+    {"@type": "Place", "name": "Rockaway Beach, Queens NY"},
+    {"@type": "Place", "name": "Breezy Point, Queens NY"},
+    {"@type": "Place", "name": "Broad Channel, Queens NY"}
+  ],
+  "founder": {"@type": "Person", "name": "Jay Khan"}
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,400..900,0..100,0..1&family=Karla:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --sand:#FBF6EC;
+  --sand-deep:#F3EAD8;
+  --ink:#16242F;
+  --ink-soft:#3D4F5C;
+  --orange:#E2572B;
+  --orange-deep:#C44320;
+  --seafoam:#7FB6A4;
+  --line:rgba(22,36,47,.14);
+  --serif:"Fraunces",Georgia,serif;
+  --sans:"Karla",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--sans);
+  background:var(--sand);
+  color:var(--ink);
+  line-height:1.6;
+  overflow-x:hidden;
+}
+/* paper grain */
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:1000;opacity:.5;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.035 0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+::selection{background:var(--orange);color:var(--sand)}
+
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+
+/* ---------- top ticker ---------- */
+.ticker{
+  background:var(--ink);color:var(--sand);
+  font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  padding:9px 0;overflow:hidden;white-space:nowrap;
+}
+.ticker-inner{display:inline-block;animation:tick 36s linear infinite}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.ticker span{display:inline-block;padding:0 18px}
+.ticker .dot{color:var(--orange)}
+
+/* ---------- nav ---------- */
+nav{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:22px 0;border-bottom:1px solid var(--line);
+}
+.logo{font-family:var(--serif);font-weight:800;font-size:21px;letter-spacing:-.01em;text-decoration:none;color:var(--ink)}
+.logo em{font-style:italic;color:var(--orange)}
+.nav-links{display:flex;gap:26px;align-items:center}
+.nav-links a{color:var(--ink-soft);text-decoration:none;font-weight:700;font-size:14px}
+.nav-links a:hover{color:var(--orange)}
+.btn{
+  display:inline-block;background:var(--orange);color:#fff;text-decoration:none;
+  font-weight:800;font-size:15px;padding:13px 26px;border-radius:999px;
+  border:2px solid var(--orange);
+  box-shadow:0 4px 0 var(--orange-deep);
+  transition:transform .12s ease,box-shadow .12s ease;
+}
+.btn:hover{transform:translateY(2px);box-shadow:0 2px 0 var(--orange-deep)}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--ink);box-shadow:0 4px 0 var(--ink)}
+.btn.ghost:hover{box-shadow:0 2px 0 var(--ink)}
+.nav-cta{padding:10px 20px;font-size:14px}
+@media(max-width:640px){.nav-links a:not(.btn){display:none}}
+
+/* ---------- hero ---------- */
+.hero{padding:72px 0 64px;position:relative}
+.kicker{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:13px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--orange);
+  margin-bottom:22px;
+}
+.kicker::before{content:"";width:34px;height:2px;background:var(--orange)}
+h1{
+  font-family:var(--serif);
+  font-size:clamp(46px,8.5vw,96px);
+  font-weight:900;line-height:.98;letter-spacing:-.025em;
+  font-variation-settings:"SOFT" 40,"WONK" 1;
+  max-width:13ch;
+}
+h1 .swoop{font-style:italic;font-weight:600;color:var(--orange)}
+.hero-sub{
+  font-size:clamp(17px,2.2vw,21px);color:var(--ink-soft);max-width:46ch;
+  margin:28px 0 36px;
+}
+.hero-sub strong{color:var(--ink)}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.hero-note{font-size:14px;font-weight:700;color:var(--ink-soft)}
+.hero-note b{color:var(--orange)}
+/* staggered load */
+.hero .reveal-load{opacity:0;transform:translateY(18px);animation:up .7s cubic-bezier(.2,.7,.2,1) forwards}
+.hero .d1{animation-delay:.05s}.hero .d2{animation-delay:.15s}.hero .d3{animation-delay:.3s}.hero .d4{animation-delay:.45s}
+@keyframes up{to{opacity:1;transform:none}}
+
+/* beach block badges */
+.blocks{
+  margin-top:64px;display:flex;gap:10px;flex-wrap:wrap;
+}
+.block-badge{
+  font-weight:800;font-size:13px;letter-spacing:.05em;
+  border:1.5px solid var(--ink);border-radius:8px;padding:7px 13px;
+  background:#fff;box-shadow:2.5px 2.5px 0 var(--ink);
+  transform:rotate(var(--r,0deg));
+}
+.block-badge.hl{background:var(--orange);color:#fff;border-color:var(--orange-deep);box-shadow:2.5px 2.5px 0 var(--orange-deep)}
+
+/* ---------- section scaffolding ---------- */
+section{padding:84px 0;position:relative}
+.sec-label{
+  font-size:13px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--orange);margin-bottom:14px;
+}
+h2{
+  font-family:var(--serif);font-size:clamp(32px,4.6vw,52px);font-weight:800;
+  line-height:1.05;letter-spacing:-.02em;font-variation-settings:"SOFT" 30;
+  max-width:22ch;margin-bottom:18px;
+}
+h2 em{font-style:italic;color:var(--orange);font-weight:600}
+.lede{font-size:18px;color:var(--ink-soft);max-width:58ch}
+
+/* scroll reveal */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* ---------- how it works ---------- */
+.how{background:var(--ink);color:var(--sand);border-radius:28px;margin:0 12px}
+.how .wrap{padding-top:84px;padding-bottom:84px}
+.how .sec-label{color:var(--seafoam)}
+.how h2{color:var(--sand)}
+.how .lede{color:rgba(251,246,236,.72)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:54px}
+@media(max-width:760px){.steps{grid-template-columns:1fr}}
+.step{
+  border:1px solid rgba(251,246,236,.18);border-radius:18px;padding:30px 26px;
+  background:rgba(251,246,236,.04);
+}
+.step-num{
+  font-family:var(--serif);font-style:italic;font-size:44px;font-weight:600;
+  color:var(--orange);line-height:1;margin-bottom:14px;
+}
+.step h3{font-size:19px;font-weight:800;margin-bottom:10px;letter-spacing:-.01em}
+.step p{font-size:15px;color:rgba(251,246,236,.72)}
+.step p b{color:var(--sand)}
+
+/* ---------- equipment strip ---------- */
+.equip{
+  margin-top:48px;border-top:1px dashed rgba(251,246,236,.25);padding-top:34px;
+  display:flex;gap:22px;align-items:flex-start;flex-wrap:wrap;
+}
+.equip-icon{font-size:34px;line-height:1}
+.equip p{font-size:16px;color:rgba(251,246,236,.8);max-width:62ch}
+.equip b{color:var(--sand)}
+
+/* ---------- who ---------- */
+.who-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+@media(max-width:820px){.who-grid{grid-template-columns:1fr}}
+.who-list{list-style:none;margin-top:8px}
+.who-list li{
+  padding:17px 0 17px 38px;border-bottom:1px solid var(--line);
+  font-size:17px;font-weight:500;position:relative;
+}
+.who-list li::before{
+  content:"→";position:absolute;left:0;color:var(--orange);font-weight:800;
+}
+.who-list li b{font-weight:800}
+.not-you{
+  margin-top:26px;background:var(--sand-deep);border-radius:14px;padding:20px 22px;
+  font-size:15px;color:var(--ink-soft);border:1px solid var(--line);
+}
+.not-you b{color:var(--ink)}
+
+/* ---------- about ---------- */
+.about{background:var(--sand-deep);border-radius:28px;margin:0 12px}
+.about .wrap{padding-top:84px;padding-bottom:84px}
+.about-grid{display:grid;grid-template-columns:1fr 1.25fr;gap:56px;align-items:center}
+@media(max-width:820px){.about-grid{grid-template-columns:1fr}}
+.portrait{
+  aspect-ratio:4/5;border-radius:18px;background:repeating-linear-gradient(-45deg,var(--sand) 0 14px,var(--sand-deep) 14px 28px);
+  border:2px solid var(--ink);box-shadow:8px 8px 0 var(--ink);
+  display:flex;align-items:center;justify-content:center;text-align:center;
+  font-weight:700;color:var(--ink-soft);font-size:14px;padding:20px;
+  transform:rotate(-1.2deg);
+}
+.about p{margin-bottom:16px;font-size:17px;color:var(--ink-soft)}
+.about p b{color:var(--ink)}
+.about .pull{
+  font-family:var(--serif);font-style:italic;font-size:23px;line-height:1.35;
+  color:var(--ink);border-left:3px solid var(--orange);padding-left:20px;margin:26px 0;
+  font-weight:500;
+}
+
+/* ---------- pricing ---------- */
+.price-card{
+  max-width:660px;margin:54px auto 0;background:#fff;border:2px solid var(--ink);
+  border-radius:22px;box-shadow:10px 10px 0 var(--ink);padding:46px 44px;text-align:center;
+  position:relative;
+}
+@media(max-width:560px){.price-card{padding:36px 24px}}
+.founding{
+  position:absolute;top:-18px;left:50%;transform:translateX(-50%) rotate(-2deg);
+  background:var(--orange);color:#fff;font-weight:800;font-size:13px;letter-spacing:.08em;
+  text-transform:uppercase;padding:8px 18px;border-radius:999px;white-space:nowrap;
+  box-shadow:3px 3px 0 var(--orange-deep);
+}
+.big-price{font-family:var(--serif);font-weight:900;font-size:clamp(60px,10vw,92px);line-height:1;letter-spacing:-.03em;margin:18px 0 2px}
+.big-price .was{
+  font-size:.38em;color:var(--ink-soft);font-weight:600;text-decoration:line-through;
+  text-decoration-color:var(--orange);text-decoration-thickness:3px;vertical-align:super;margin-right:10px;font-style:italic;
+}
+.per{font-weight:800;color:var(--ink-soft);font-size:16px;letter-spacing:.04em;text-transform:uppercase}
+.price-points{
+  list-style:none;margin:30px 0 34px;text-align:left;display:inline-block;
+}
+.price-points li{padding:8px 0;font-size:16px;font-weight:500}
+.price-points li::before{content:"✓";color:var(--orange);font-weight:800;margin-right:12px}
+.fine{font-size:13.5px;color:var(--ink-soft);margin-top:18px}
+
+/* ---------- area ---------- */
+.area-map{
+  margin-top:44px;display:flex;flex-wrap:wrap;gap:12px;
+}
+.area-chip{
+  font-family:var(--serif);font-weight:700;font-size:clamp(19px,2.6vw,26px);font-style:italic;
+  padding:12px 22px;border:1.5px solid var(--ink);border-radius:999px;background:#fff;
+}
+.area-chip.alt{background:var(--ink);color:var(--sand);border-color:var(--ink)}
+.area-note{margin-top:24px;font-size:15px;color:var(--ink-soft);max-width:60ch}
+
+/* ---------- faq ---------- */
+details{
+  border-bottom:1px solid var(--line);padding:6px 0;
+}
+details summary{
+  cursor:pointer;list-style:none;font-weight:800;font-size:17.5px;padding:18px 36px 18px 0;
+  position:relative;letter-spacing:-.01em;
+}
+details summary::-webkit-details-marker{display:none}
+details summary::after{
+  content:"+";position:absolute;right:4px;top:50%;transform:translateY(-50%);
+  font-family:var(--serif);font-size:26px;color:var(--orange);transition:transform .25s ease;
+}
+details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+details p{padding:0 0 20px;color:var(--ink-soft);font-size:16px;max-width:64ch}
+details p b{color:var(--ink)}
+.faq-wrap{max-width:760px;margin-top:34px}
+
+/* ---------- final cta ---------- */
+.final{
+  background:var(--orange);border-radius:28px;margin:0 12px 12px;color:#fff;text-align:center;
+}
+.final .wrap{padding-top:90px;padding-bottom:90px}
+.final h2{color:#fff;margin-left:auto;margin-right:auto}
+.final h2 em{color:var(--ink)}
+.final .lede{color:rgba(255,255,255,.85);margin:0 auto 38px}
+.btn.inverse{background:var(--ink);border-color:var(--ink);box-shadow:0 4px 0 #000}
+.btn.inverse:hover{box-shadow:0 2px 0 #000}
+.final .phone{
+  display:block;margin-top:26px;font-family:var(--serif);font-style:italic;font-weight:600;
+  font-size:clamp(22px,3.4vw,30px);color:#fff;text-decoration:none;
+}
+.final .phone:hover{text-decoration:underline}
+
+/* ---------- footer ---------- */
+footer{padding:44px 0 110px;text-align:center;font-size:13.5px;color:var(--ink-soft)}
+footer a{color:var(--ink);font-weight:700;text-decoration:none}
+footer a:hover{color:var(--orange)}
+footer .foot-logo{font-family:var(--serif);font-weight:800;font-size:18px;color:var(--ink);margin-bottom:8px}
+footer .foot-logo em{font-style:italic;color:var(--orange)}
+
+/* ---------- sticky mobile cta ---------- */
+.sticky-cta{
+  position:fixed;bottom:14px;left:14px;right:14px;z-index:900;display:none;
+}
+.sticky-cta a{
+  display:block;text-align:center;background:var(--ink);color:#fff;font-weight:800;
+  font-size:16px;padding:16px;border-radius:14px;text-decoration:none;
+  box-shadow:0 8px 24px rgba(22,36,47,.35);
+}
+.sticky-cta a span{color:var(--orange)}
+@media(max-width:640px){.sticky-cta{display:block}}
+</style>
+</head>
+<body>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-inner" id="ticker">
+    <span>Belle Harbor</span><span class="dot">●</span><span>Neponsit</span><span class="dot">●</span><span>Rockaway Park</span><span class="dot">●</span><span>Rockaway Beach</span><span class="dot">●</span><span>Breezy Point</span><span class="dot">●</span><span>Broad Channel</span><span class="dot">●</span><span>Serving B. 90th → Breezy</span><span class="dot">●</span>
+  </div>
+</div>
+
+<div class="wrap">
+  <nav>
+    <a class="logo" href="#">Train With <em>Jay</em></a>
+    <div class="nav-links">
+      <a href="#how">How it works</a>
+      <a href="#about">About Jay</a>
+      <a href="#price">Pricing</a>
+      <a class="btn nav-cta" href="sms:+13476712813">Text Jay</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="kicker reveal-load d1">At-home personal training · The Rockaways</div>
+    <h1 class="reveal-load d2">The gym that <span class="swoop">knocks on
+    your door.</span></h1>
+    <p class="hero-sub reveal-load d3">I come to you — your living room, garage, backyard. <strong>45 minutes, just us, zero commute.</strong> For Rockaway people who want to lose the weight and get strong, but are done pretending they'll ever love the gym.</p>
+    <div class="hero-ctas reveal-load d4">
+      <a class="btn" href="sms:+13476712813">📱 Text me to set up a session</a>
+      <span class="hero-note"><b>$75/session</b> · no packages · no contracts</span>
+    </div>
+    <div class="blocks reveal-load d4">
+      <span class="block-badge" style="--r:-1.5deg">B. 91st</span>
+      <span class="block-badge" style="--r:1deg">B. 108th</span>
+      <span class="block-badge hl" style="--r:-1deg">B. 116th</span>
+      <span class="block-badge" style="--r:1.5deg">B. 129th</span>
+      <span class="block-badge" style="--r:-.8deg">B. 149th</span>
+      <span class="block-badge hl" style="--r:1.2deg">Breezy</span>
+    </div>
+  </header>
+</div>
+
+<section class="how" id="how">
+  <div class="wrap">
+    <div class="sec-label reveal">How it works</div>
+    <h2 class="reveal">Three steps. The hardest one is the text.</h2>
+    <p class="lede reveal">No sales call, no “fitness consultation,” no contract with a gym you’ll resent. You text, I show up, we get to work.</p>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="step-num">1.</div>
+        <h3>Text me</h3>
+        <p>Tell me where you live and what you’re after. We’ll find a time that works — <b>early mornings, evenings, weekends included.</b></p>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">2.</div>
+        <h3>I come to you</h3>
+        <p>I show up at your door with a plan built for <b>you</b> — your body, your goals, your living room. No machines required.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">3.</div>
+        <h3>We train — 45 minutes</h3>
+        <p>Focused, efficient, done. Every set gets logged in an app so you can <b>watch yourself get stronger</b> week over week.</p>
+      </div>
+    </div>
+    <div class="equip reveal">
+      <div class="equip-icon">🏋️</div>
+      <p><b>All you need is a pair of dumbbells and some floor space.</b> That’s genuinely it. Don’t own any? Text me before our first session and I’ll send you a short shopping list — about $50, one-time, and it’s yours forever. I bring the rest.</p>
+    </div>
+  </div>
+</section>
+
+<section id="who">
+  <div class="wrap">
+    <div class="who-grid">
+      <div>
+        <div class="sec-label reveal">Who this is for</div>
+        <h2 class="reveal">Built for the <em>busiest</em> people on the peninsula.</h2>
+        <p class="lede reveal">If the commute already eats your day, the last thing you need is another trip — to a gym where you don’t know what to do anyway.</p>
+      </div>
+      <div>
+        <ul class="who-list">
+          <li class="reveal"><b>Parents</b> who can only train when the kids are asleep or at school</li>
+          <li class="reveal"><b>Commuters</b> who lose 3 hours a day to the A train or Cross Bay</li>
+          <li class="reveal"><b>Beginners</b> who feel lost or judged in a gym — there’s no one watching in your living room</li>
+          <li class="reveal"><b>Anyone 30–55</b> who wants to lose weight, get strong, and feel good at the beach they live on</li>
+        </ul>
+        <div class="not-you reveal"><b>Not for you if:</b> you want a bodybuilding coach or you love your gym. That’s great — keep going. This is for people who need training to come to them.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="portrait reveal">[ Photo of Jay — coming soon.<br>Probably on the boardwalk. ]</div>
+      <div>
+        <div class="sec-label reveal">About Jay</div>
+        <h2 class="reveal">25 years under the bar. <em>Zero</em> interest in showing off.</h2>
+        <p class="reveal">I’m Jay — I live right here in the Rockaways, and I’ve been lifting for 25 years. Not as an influencer. As a guy who trains before work, raises kids, and figured out how to stay strong with a real life attached.</p>
+        <p class="reveal">I built <b>Liftaroo</b>, a workout app on the App Store — so every session we do together gets logged, and you can literally watch the numbers go up. Most trainers hand you a clipboard. I built the software.</p>
+        <p class="pull reveal">“You don’t need motivation. You need an appointment with someone who’s going to ring your doorbell.”</p>
+        <p class="reveal">My thing is simple: no fads, no shame, no 90-minute marathons. Strength basics, done right, in the time you actually have.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="price">
+  <div class="wrap">
+    <div class="sec-label reveal" style="text-align:center">Pricing</div>
+    <h2 class="reveal" style="text-align:center;margin-inline:auto">One number. No funny business.</h2>
+    <div class="price-card reveal">
+      <div class="founding">Founding rate — first 10 clients</div>
+      <div class="big-price"><span class="was">$75</span>$60</div>
+      <div class="per">per session · 45 minutes · at your home</div>
+      <ul class="price-points">
+        <li>Pay per session — cash, Venmo, or Zelle</li>
+        <li>No packages, no memberships, no contracts</li>
+        <li>Program + every workout logged in the app</li>
+        <li>Cancel or reschedule with a text</li>
+      </ul>
+      <a class="btn" href="sms:+13476712813">Text Jay to claim a founding spot</a>
+      <p class="fine">Founding clients keep the $60 rate for as long as they train with me. After the first 10, new clients pay $75.</p>
+    </div>
+  </div>
+</section>
+
+<section id="area">
+  <div class="wrap">
+    <div class="sec-label reveal">Where I train</div>
+    <h2 class="reveal">If you’re on the peninsula, <em>I’ll get to you.</em></h2>
+    <div class="area-map">
+      <span class="area-chip reveal">Belle Harbor</span>
+      <span class="area-chip alt reveal">Neponsit</span>
+      <span class="area-chip reveal">Rockaway Park</span>
+      <span class="area-chip alt reveal">Rockaway Beach</span>
+      <span class="area-chip reveal">Breezy Point</span>
+      <span class="area-chip alt reveal">Broad Channel</span>
+    </div>
+    <p class="area-note reveal">Live just off the peninsula — Howard Beach, Far Rockaway? Text me anyway. If the drive works, I’ll make it work.</p>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-label reveal">Questions people actually ask</div>
+    <h2 class="reveal">The honest FAQ.</h2>
+    <div class="faq-wrap">
+      <details class="reveal">
+        <summary>I'm really out of shape. Is this going to be embarrassing?</summary>
+        <p>No — and you’re my favorite kind of client. There’s no one else there. No mirrors, no gym bros, no audience. We start exactly where you are, and the first session is mostly me learning how you move. <b>Nobody has ever thrown up on my watch, and we’re keeping the streak.</b></p>
+      </details>
+      <details class="reveal">
+        <summary>What equipment do I need?</summary>
+        <p>A pair of dumbbells and enough floor space to lie down. That covers months of progress. If you don’t own anything, I’ll text you a ~$50 shopping list before we start — buy once, keep forever. I bring bands and anything else we need.</p>
+      </details>
+      <details class="reveal">
+        <summary>Why per-session instead of packages?</summary>
+        <p>Because packages are how gyms trap you. I’d rather you book session two because session one was worth it. You pay as we go — cash, Venmo, or Zelle — and you can stop anytime. <b>My retention plan is being good at this.</b></p>
+      </details>
+      <details class="reveal">
+        <summary>How often should I train with you?</summary>
+        <p>Most people do 1–2 sessions a week with me, and I’ll set you up with simple workouts to do on your own between sessions — tracked in the app, so I see them and adjust. You’re not paying me to count your reps; you’re paying me to make sure the whole week works.</p>
+      </details>
+      <details class="reveal">
+        <summary>45 minutes — is that enough?</summary>
+        <p>Yes. A focused 45 minutes with zero waiting-for-machines beats 90 distracted minutes at a gym. Warm-up, work hard, done — you’re showered before you’d have found parking at the gym.</p>
+      </details>
+      <details class="reveal">
+        <summary>Do you train couples?</summary>
+        <p>Text me — if you and your spouse or a friend want to train together at the same session, we can usually make that work.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <div class="sec-label reveal" style="color:rgba(255,255,255,.85)">Ready when you are</div>
+    <h2 class="reveal">The next text you send could be <em>the one that changes the year.</em></h2>
+    <p class="lede reveal">Tell me your name and your cross street. I’ll take it from there.</p>
+    <a class="btn inverse reveal" href="sms:+13476712813">📱 Text Jay — (347) 671-2813</a>
+    <a class="phone reveal" href="tel:+13476712813">or call: (347) 671-2813</a>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-logo">Train With <em>Jay</em></div>
+  <p>At-home personal training · Rockaway Beach, NY 11694</p>
+  <p><a href="sms:+13476712813">Text</a> · <a href="tel:+13476712813">Call</a> · <a href="https://liftaroo.app">Liftaroo — the app we train on</a></p>
+  <p style="margin-top:14px;opacity:.7">© 2026 Train With Jay. Be nice to your knees.</p>
+</footer>
+
+<div class="sticky-cta">
+  <a href="sms:+13476712813">Text Jay to book <span>→</span> (347) 671-2813</a>
+</div>
+
+<script>
+// duplicate ticker content for seamless loop
+const t=document.getElementById('ticker');t.innerHTML+=t.innerHTML;
+// scroll reveals
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
