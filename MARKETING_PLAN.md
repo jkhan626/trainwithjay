@@ -6,7 +6,7 @@ Nobody offers in-home training on the peninsula — Svetness/FlexIt/Fyt claim Qu
 
 ## The offer (locked)
 - **45-minute 1:1 session at the client's home.** Jay travels; client provides dumbbells (~$50 shopping list if they have none); Jay brings bands/mat.
-- **$75/session standard · $60 founding rate, first 10 clients, locked for life.** Per-session only — cash, Venmo, Zelle. No packages, no contracts.
+- **Flat $60/session** (June 10: Jamal dropped the founding-rate framing — one price on the site, plus a "first session free if it's not worth a second" guarantee). Per-session only — cash, Venmo, Zelle. No packages, no contracts.
 - **Raise trigger:** when you're ~70% booked (roughly 15+ sessions/week), new clients pay $90. Existing clients keep their rate forever — that's the loyalty engine. (Research says NYC in-home runs $90–$120+; you'll grow into it. $90 is not the launch price — it's the year-one ceiling.)
 - Target: gen-pop weight loss, 30–55, on or near the peninsula.
 - Upsells later, not now: couples sessions (+$25–30), the $249/mo app-coaching tier for people who move away or want fewer in-person sessions.

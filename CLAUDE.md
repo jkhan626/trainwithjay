@@ -5,7 +5,7 @@ Jamal's **in-person, in-home personal training** business for the Rockaway penin
 
 ## The business (decided June 10, 2026)
 - **Model:** Jay travels to client homes. 45-minute 1:1 sessions. Client provides dumbbells (~$50 shopping list if needed); Jay brings bands/mat.
-- **Pricing:** $75/session standard · **$60 founding rate for first 10 clients, locked for life.** Per-session ONLY — cash/Venmo/Zelle. **No packages, ever** (Jamal's explicit rule). Raise to $90 for new clients at ~70% booked.
+- **Pricing:** **flat $60/session** (founding-rate framing removed June 10 per Jamal — site shows one price, no crossed-out anchor). Per-session ONLY — cash/Venmo/Zelle. **No packages, ever** (Jamal's explicit rule). Raise path for new clients when ~70% booked lives in MARKETING_PLAN.md.
 - **Target:** gen-pop weight loss, 30–55, Belle Harbor / Neponsit / Rockaway Park / Rockaway Beach / Breezy Point / Broad Channel.
 - **Contact CTA:** text (347) 671-2813 — same number as Liftaroo coaching.
 - **Liftaroo tie-in:** light. Sessions logged in Liftaroo (mentioned in About + footer). The $249/mo online coaching is a later upsell, not on this site.
@@ -25,7 +25,8 @@ Jamal's **in-person, in-home personal training** business for the Rockaway penin
 
 ## Content rules
 - **Never** mention or hint at steroids/PEDs (family privacy — same rule as all Jamal marketing).
-- **No CSCS claim** until he passes it. No fake testimonials. Credential is "25 years under the bar" + built Liftaroo.
+- **No "CSCS certified" claim** until he passes it. Site currently says "CSCS and nutrition coach certifications on the way" (his certs are in progress, June 2026) — flip to "certified" the day he passes. No fake testimonials. Credential is "25 years under the bar" + CPR/AED + built Liftaroo.
+- **No em dashes in site copy** (Jamal's rule, June 10 2026) — use periods, commas, colons, or parentheses.
 - Voice: permission, not blame. Anti-gym-intimidation. Same voice as the "[Verb], Dumbass" series.
 - Photo placeholder in About section — swap in a real photo when Jamal provides one.
 
