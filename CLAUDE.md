@@ -27,6 +27,7 @@ Jamal's **in-person, in-home personal training** business for the Rockaway penin
 - **Never** mention or hint at steroids/PEDs (family privacy — same rule as all Jamal marketing).
 - **No "CSCS certified" claim** until he passes it. Site currently says "CSCS and nutrition coach certifications on the way" (his certs are in progress, June 2026) — flip to "certified" the day he passes. No fake testimonials. Credential is "25 years under the bar" + CPR/AED + built Liftaroo.
 - **No em dashes in site copy** (Jamal's rule, June 10 2026) — use periods, commas, colons, or parentheses.
+- **No emojis in site copy** (Jamal's rule, June 10 2026). The orange ✓ CSS list bullets are fine; pictographic emojis are not.
 - Voice: permission, not blame. Anti-gym-intimidation. Same voice as the "[Verb], Dumbass" series.
 - Photo placeholder in About section — swap in a real photo when Jamal provides one.
 
