@@ -36,10 +36,11 @@
   .glp h2{font-family:'Fraunces'; font-weight:800; font-size:22px; line-height:1.1; margin:6px 0 6px;}
   .glp p{font-size:13.5px; line-height:1.5; color:rgba(245,238,221,.85);}
 
-  .who{margin-top:16px;}
-  .who h3{font-family:'Fraunces'; font-weight:800; font-size:17px; margin-bottom:8px;}
-  .creds{display:flex; flex-wrap:wrap; justify-content:center; gap:8px; margin-top:4px;}
-  .chip{background:var(--deepsand); border:1px solid rgba(22,36,47,.14); border-radius:999px; padding:6px 12px; font-size:12px; font-weight:700;}
+  .who{margin-top:16px; text-align:center;}
+  .who h3{font-family:'Fraunces'; font-weight:800; font-size:18px; margin-bottom:10px;}
+  .cred-list{list-style:none; display:inline-grid; grid-template-columns:auto auto; gap:7px 32px; text-align:left; margin:0 auto;}
+  .cred-list li{font-size:13.5px; font-weight:600; color:rgba(22,36,47,.82); display:flex; gap:9px; align-items:baseline;}
+  .cred-list li::before{content:"\2713"; color:var(--orange); font-weight:800; flex-shrink:0;}
 
   .offer{display:flex; align-items:center; gap:16px; margin-top:16px; background:#fff; border:2px solid var(--seafoam); border-radius:14px; padding:14px 18px;}
   .offer .price{font-family:'Fraunces'; font-weight:900; font-size:40px; line-height:1; color:var(--ink);}
@@ -101,13 +102,14 @@
 
   <div class="who">
     <h3>Who is training you</h3>
-    <div class="creds">
-      <span class="chip">CSCS, NSCA</span>
-      <span class="chip">CPR / AED certified</span>
-      <span class="chip">DrPH student, Johns Hopkins</span>
-      <span class="chip">25 years under the bar</span>
-      <span class="chip">Built the Liftaroo fitness app</span>
-    </div>
+    <ul class="cred-list">
+      <li>CSCS (NSCA certified)</li>
+      <li>GLP-1 muscle-preservation focus</li>
+      <li>CPR / AED certified</li>
+      <li>25 years under the bar</li>
+      <li>DrPH student, Johns Hopkins</li>
+      <li>Built the Liftaroo app</li>
+    </ul>
   </div>
 
   <div class="offer">
