@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rockaway Trainer — One-Pager (print to PDF: Letter, no margins)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800;9..144,900&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --sand:#FBF6EC; --deepsand:#F3EAD8; --ink:#16242F;
+    --orange:#E2572B; --deepor:#C44320; --seafoam:#7FB6A4;
+  }
+  *{box-sizing:border-box; margin:0; padding:0; -webkit-print-color-adjust:exact; print-color-adjust:exact;}
+  html,body{background:#999; font-family:'Karla',system-ui,sans-serif; color:var(--ink);}
+  /* Letter page */
+  .page{
+    width:8.5in; min-height:11in; margin:24px auto; background:var(--sand);
+    padding:0.6in 0.62in 0.5in; position:relative; overflow:hidden;
+    box-shadow:0 8px 40px rgba(0,0,0,.35);
+  }
+  .eyebrow{font-family:'Karla'; font-weight:700; letter-spacing:.18em; text-transform:uppercase; font-size:11px; color:var(--deepor);}
+  h1{font-family:'Fraunces'; font-weight:900; font-size:46px; line-height:1.02; letter-spacing:-0.02em; margin:6px 0 4px;}
+  h1 .em{font-style:italic; color:var(--orange);}
+  .sub{font-size:15px; line-height:1.5; color:rgba(22,36,47,.78); max-width:6.2in; margin-top:8px;}
+  .rule{height:3px; width:64px; background:var(--orange); border-radius:2px; margin:16px 0;}
+
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:6px;}
+  .card{background:#fff; border:1px solid rgba(22,36,47,.12); border-radius:12px; padding:14px 16px;}
+  .card h3{font-family:'Fraunces'; font-weight:800; font-size:16px; margin-bottom:4px;}
+  .card p{font-size:13px; line-height:1.45; color:rgba(22,36,47,.72);}
+
+  .glp{background:var(--ink); color:var(--sand); border-radius:14px; padding:18px 20px; margin-top:16px;}
+  .glp .eyebrow{color:var(--seafoam);}
+  .glp h2{font-family:'Fraunces'; font-weight:800; font-size:22px; line-height:1.1; margin:6px 0 6px;}
+  .glp p{font-size:13.5px; line-height:1.5; color:rgba(245,238,221,.85);}
+
+  .who{margin-top:16px;}
+  .who h3{font-family:'Fraunces'; font-weight:800; font-size:17px; margin-bottom:8px;}
+  .creds{display:flex; flex-wrap:wrap; gap:8px; margin-top:4px;}
+  .chip{background:var(--deepsand); border:1px solid rgba(22,36,47,.14); border-radius:999px; padding:6px 12px; font-size:12px; font-weight:700;}
+
+  .offer{display:flex; align-items:center; gap:16px; margin-top:16px; background:#fff; border:2px solid var(--seafoam); border-radius:14px; padding:14px 18px;}
+  .offer .price{font-family:'Fraunces'; font-weight:900; font-size:40px; line-height:1; color:var(--ink);}
+  .offer .price small{font-size:14px; font-weight:700; color:rgba(22,36,47,.55);}
+  .offer ul{list-style:none; font-size:13px; line-height:1.5;}
+  .offer li{display:flex; gap:8px;}
+  .offer li::before{content:"\2713"; color:var(--orange); font-weight:800;}
+
+  .provider{margin-top:14px; background:var(--deepsand); border-left:4px solid var(--seafoam); border-radius:10px; padding:12px 16px; font-size:12.5px; line-height:1.5; color:rgba(22,36,47,.8);}
+  .provider b{color:var(--ink);}
+
+  .contact{display:flex; align-items:center; justify-content:space-between; margin-top:18px; padding-top:14px; border-top:2px solid rgba(22,36,47,.15);}
+  .contact .name{font-family:'Fraunces'; font-weight:900; font-size:20px;}
+  .contact .lines{font-size:13.5px; line-height:1.5; text-align:right;}
+  .contact .lines b{color:var(--deepor);}
+
+  .footnote{margin-top:10px; font-size:10px; color:rgba(22,36,47,.5); text-align:center;}
+
+  @media print{
+    html,body{background:#fff;}
+    .printhint{display:none !important;}
+    .page{margin:0; box-shadow:none; width:8.5in; min-height:0; padding:0.38in 0.6in 0.2in;}
+    @page{size:Letter; margin:0;}
+    h1{font-size:39px;}
+    .sub{margin-top:5px; font-size:14px;}
+    .rule{margin:7px 0;}
+    .grid{gap:9px; margin-top:3px;}
+    .card{padding:9px 14px;}
+    .glp{margin-top:8px; padding:12px 18px;}
+    .who{margin-top:7px;}
+    .offer{margin-top:8px; padding:10px 16px;}
+    .provider{margin-top:7px; padding:9px 14px;}
+    .contact{margin-top:7px; padding-top:7px;}
+    .footnote{margin-top:5px;}
+  }
+  .printhint{max-width:8.5in; margin:10px auto 0; font-family:system-ui,sans-serif; font-size:12px; color:#fff; text-align:center;}
+</style>
+</head>
+<body>
+<div class="printhint">To make the PDF: open this file in Chrome, Print, choose "Save as PDF", paper "Letter", margins "None", and turn ON "Background graphics". This hint will not appear in the PDF.</div>
+<div class="page">
+  <div class="eyebrow">In-home personal training &middot; The Rockaways</div>
+  <h1>Get stronger <span class="em">at home.</span><br>No gym. No commute.</h1>
+  <p class="sub">I am Jamal, a certified strength coach who comes to you, anywhere on the peninsula, for 45-minute one-on-one sessions built around your goals, your body, and your schedule. Belle Harbor, Neponsit, Rockaway Park, Rockaway Beach, Breezy Point, and Broad Channel.</p>
+  <div class="rule"></div>
+
+  <div class="grid">
+    <div class="card"><h3>I come to you</h3><p>No gym membership, no driving, no waiting for equipment. We train in your living room with what you have, plus the bands and mat I bring.</p></div>
+    <div class="card"><h3>Built for real people</h3><p>Beginners welcome. Adults 30 and up who want to lose weight, get strong, and stay healthy. No intimidation, no judgment, no fads.</p></div>
+    <div class="card"><h3>Careful and safe</h3><p>I train around your injuries and limitations and progress you at a pace that lasts. Comfortable working with post-rehab and older adults.</p></div>
+    <div class="card"><h3>One flat price</h3><p>Pay per session. No packages, no contracts, no pressure. Try the first session and only keep going if it is worth it to you.</p></div>
+  </div>
+
+  <div class="glp">
+    <div class="eyebrow">On a GLP-1? Ozempic, Wegovy, Zepbound</div>
+    <h2>Lose the fat. Keep the muscle.</h2>
+    <p>Studies show that without resistance training, a meaningful share of the weight people lose on GLP-1 medications is lean muscle, not fat. I build training around protecting your strength and muscle while the medication does its job, so your results look better, feel better, and last. I never advise on medication. That stays with your prescriber.</p>
+  </div>
+
+  <div class="who">
+    <h3>Who is training you</h3>
+    <div class="creds">
+      <span class="chip">CSCS, NSCA</span>
+      <span class="chip">CPR / AED certified</span>
+      <span class="chip">DrPH student, Johns Hopkins</span>
+      <span class="chip">MPA</span>
+      <span class="chip">25 years under the bar</span>
+      <span class="chip">Built the Liftaroo fitness app</span>
+    </div>
+  </div>
+
+  <div class="offer">
+    <div class="price">$75<br><small>per session</small></div>
+    <ul>
+      <li>45-minute 1:1 session in your home</li>
+      <li>A plan built around your goals and your body</li>
+      <li>Form coaching and progress you can feel</li>
+      <li>Pay per session: cash, Venmo, or Zelle</li>
+    </ul>
+  </div>
+
+  <div class="provider">
+    <b>For referring providers (PT, primary care, med spa, chiropractic):</b> I handle the training side only and coordinate with you on any limitations. I never give medical or medication advice. Happy to be a trusted, careful option for patients who need to keep moving and get stronger, and I refer back to you as well.
+  </div>
+
+  <div class="contact">
+    <div class="name">Rockaway Trainer</div>
+    <div class="lines">
+      Text or call <b>(347) 671-2813</b><br>
+      jamal@rockawaytrainer.com<br>
+      rockawaytrainer.com
+    </div>
+  </div>
+
+  <div class="footnote">Independent personal training. Not medical advice. Consult your physician before beginning any exercise program.</div>
+</div>
+</body>
+</html>
