@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rockaway Trainer — Neighborhood Poster (print Letter, no margins, background graphics ON)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{--sand:#FBF6EC;--deepsand:#F3EAD8;--ink:#16242F;--orange:#E2572B;--seafoam:#7FB6A4;}
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  html,body{background:#999;font-family:'Karla',system-ui,sans-serif;color:var(--ink);}
+  .page{width:8.5in;min-height:11in;margin:24px auto;background:var(--sand);padding:0.7in 0.7in 0.6in;box-shadow:0 8px 40px rgba(0,0,0,.35);display:flex;flex-direction:column;}
+  .eyebrow{font-family:'Karla';font-weight:700;letter-spacing:.2em;text-transform:uppercase;font-size:15px;color:var(--deepor,#C44320);color:#C44320;text-align:center;}
+  h1{font-family:'Fraunces';font-weight:900;font-size:74px;line-height:0.98;letter-spacing:-0.02em;text-align:center;margin:14px 0 0;}
+  h1 .em{font-style:italic;color:var(--orange);}
+  .sub{font-size:21px;line-height:1.45;text-align:center;color:rgba(22,36,47,.78);max-width:6.4in;margin:18px auto 0;}
+  .glp{background:var(--ink);color:var(--sand);border-radius:16px;padding:22px 26px;margin:26px 0 0;text-align:center;}
+  .glp .tag{font-family:'Karla';font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:13px;color:var(--seafoam);}
+  .glp .big{font-family:'Fraunces';font-weight:800;font-size:34px;line-height:1.05;margin-top:6px;}
+  .creds{text-align:center;font-size:16px;font-weight:700;color:var(--ink);margin:24px auto 0;line-height:1.7;}
+  .creds .dot{color:var(--orange);margin:0 8px;}
+  .qrwrap{margin-top:auto;display:flex;align-items:center;justify-content:center;gap:30px;padding-top:30px;}
+  .qr{width:2.1in;height:2.1in;border:8px solid #fff;border-radius:14px;box-shadow:0 6px 22px rgba(22,36,47,.18);}
+  .qrtext .scan{font-family:'Fraunces';font-weight:900;font-size:34px;line-height:1.05;}
+  .qrtext .scan .em{font-style:italic;color:var(--orange);}
+  .qrtext .url{font-size:22px;font-weight:700;margin-top:8px;color:var(--ink);}
+  .qrtext .note{font-size:15px;color:rgba(22,36,47,.6);margin-top:6px;max-width:3in;}
+  .foot{text-align:center;margin-top:26px;padding-top:16px;border-top:2px solid rgba(22,36,47,.15);}
+  .foot .brand{font-family:'Fraunces';font-weight:900;font-size:26px;}
+  .foot .tagline{font-size:14px;color:rgba(22,36,47,.6);margin-top:2px;}
+  @media print{
+    html,body{background:#fff;}
+    .page{margin:0;box-shadow:none;min-height:0;height:10.9in;}
+    @page{size:Letter;margin:0;}
+  }
+  .printhint{max-width:8.5in;margin:10px auto 0;font-family:system-ui,sans-serif;font-size:12px;color:#fff;text-align:center;}
+  @media print{.printhint{display:none;}}
+</style>
+</head>
+<body>
+<div class="printhint">Print this in Chrome: Print &rarr; Save as PDF &rarr; paper Letter, margins None, Background graphics ON.</div>
+<div class="page">
+  <div class="eyebrow">In-home personal training &middot; The Rockaways</div>
+  <h1>Get strong.<br><span class="em">I come to you.</span></h1>
+  <p class="sub">45-minute one-on-one strength training in your own home, anywhere on the peninsula. No gym, no commute, no intimidation.</p>
+
+  <div class="glp">
+    <div class="tag">On Ozempic, Wegovy, or Zepbound?</div>
+    <div class="big">Lose the fat. Keep the muscle.</div>
+  </div>
+
+  <div class="creds">
+    CSCS certified <span class="dot">&middot;</span> 25 years under the bar <span class="dot">&middot;</span> Built the Liftaroo app<br>
+    Your Rockaway neighbor, training the peninsula
+  </div>
+
+  <div class="qrwrap">
+    <img class="qr" src="qr-rockawaytrainer.png" alt="Scan to visit rockawaytrainer.com">
+    <div class="qrtext">
+      <div class="scan">Scan to <span class="em">start.</span></div>
+      <div class="url">rockawaytrainer.com</div>
+      <div class="note">See what it&rsquo;s about and reach out, right from your phone.</div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <div class="brand">Rockaway Trainer</div>
+    <div class="tagline">Strength basics, done right, in the time you actually have.</div>
+  </div>
+</div>
+</body>
+</html>
