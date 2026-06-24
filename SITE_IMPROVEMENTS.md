@@ -52,7 +52,7 @@ Your current `index.html` has a basic `LocalBusiness` block with a street addres
   "name": "Rockaway Trainer",
   "image": "https://rockawaytrainer.com/og-image.jpg",
   "url": "https://rockawaytrainer.com",
-  "telephone": "+1-347-671-2813",
+  "telephone": "+1-347-313-8748",
   "email": "jamal@rockawaytrainer.com",
   "priceRange": "$$",
   "description": "In-home personal training on the Rockaway Peninsula. CSCS-certified strength coaching and GLP-1 muscle-preservation programs. $75 per session.",
@@ -99,7 +99,7 @@ Find your Place ID via Google's Place ID Finder. Then `rockawaytrainer.com/revie
 
 ## 4. Quick SEO checklist
 Your title tag is already strong ("Personal Trainer Rockaway Beach NY | In-Home + GLP-1 Weight Loss Training | Rockaway Trainer"). Remaining:
-- [ ] **Footer NAP block** identical to GBP: "Rockaway Trainer · (347) 671-2813 · jamal@rockawaytrainer.com · Serving the Rockaway Peninsula." (Matching site NAP to GBP NAP is a ranking factor.)
+- [ ] **Footer NAP block** identical to GBP: "Rockaway Trainer · (347) 313-8748 · jamal@rockawaytrainer.com · Serving the Rockaway Peninsula." (Matching site NAP to GBP NAP is a ranking factor.)
 - [ ] A short **"Where I train"** section listing every neighborhood by name (Belle Harbor, Neponsit, Rockaway Park, Rockaway Beach, Breezy Point, Broad Channel, Arverne, Far Rockaway) — this is your stand-in for per-neighborhood pages.
 - [ ] **Google Search Console**: verify the domain, submit `sitemap.xml`, Request Indexing on the homepage.
 - [ ] **Citations** with byte-identical NAP: Bing Places, Apple Business Connect, Yelp, a Facebook *business* page, Yellow Pages.

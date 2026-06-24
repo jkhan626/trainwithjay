@@ -6,7 +6,7 @@ This is a **systems** playbook: do the one-time setup once, then run the weekly 
 
 > **Your fixed details to fill in everywhere (do this first, keep consistent — NAP = Name, Address, Phone):**
 > - **Name:** Rockaway Trainer (use this exact spelling everywhere)
-> - **Phone:** `(347) 671-2813` (one number, same format everywhere)
+> - **Phone:** `(347) 313-8748` (one number, same format everywhere)
 > - **Email:** `jamal@rockawaytrainer.com`
 > - **Website:** https://rockawaytrainer.com
 > - **Service area:** Rockaway Peninsula — Rockaway Beach, Rockaway Park, Belle Harbor, Neponsit, Breezy Point, Arverne, Far Rockaway, Edgemere (Queens, NY)
@@ -108,7 +108,7 @@ Upload at setup, then 2-4 new photos/month:
 
 **B) Offer / CTA post (Thursdays)**
 ```
-Free 20-minute intro consult for Rockaway Peninsula residents. No pressure, no gym membership — I come to your home. $75/session after. Text "ROCKAWAY" to (347) 671-2813 to book.
+Free 20-minute intro consult for Rockaway Peninsula residents. No pressure, no gym membership — I come to your home. $75/session after. Text "ROCKAWAY" to (347) 313-8748 to book.
 ```
 
 **C) Social-proof post (when you get a review/win)**
@@ -118,7 +118,7 @@ Free 20-minute intro consult for Rockaway Peninsula residents. No pressure, no g
 
 **D) Local / seasonal post**
 ```
-Beach season's coming to Rockaway 🏖️ Want to feel strong and confident? I bring the gym to your living room — strength training for every level. Free intro consult this week → (347) 671-2813
+Beach season's coming to Rockaway 🏖️ Want to feel strong and confident? I bring the gym to your living room — strength training for every level. Free intro consult this week → (347) 313-8748
 ```
 
 > Add a **CTA button** on every post ("Call now" or "Book"). Always include your phone or site link.
@@ -174,7 +174,7 @@ Even a sentence helps more than you'd think. Thank you!
 
 — Jamal Khan, CSCS
 Rockaway Trainer
-(347) 671-2813
+(347) 313-8748
 ```
 
 ### 2c. Get to 10 fast — the launch sprint
@@ -332,7 +332,7 @@ Why it works: the new client risks nothing, the referrer is rewarded, and one $7
 
 **The forwardable message (text it to the client to pass along):**
 ```
-Hey! My trainer [NAME] does in-home strength training here in Rockaway — he's CSCS-certified and really good, especially if you're on a GLP-1 and want to keep muscle. He's giving free intro sessions to people I refer. Want his number? (347) 671-2813 / rockawaytrainer.com
+Hey! My trainer [NAME] does in-home strength training here in Rockaway — he's CSCS-certified and really good, especially if you're on a GLP-1 and want to keep muscle. He's giving free intro sessions to people I refer. Want his number? (347) 313-8748 / rockawaytrainer.com
 ```
 
 ### 5c. Make it compound (the system, not a one-off)

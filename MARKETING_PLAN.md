@@ -80,7 +80,7 @@ Concrete, researched channels — names and numbers:
 ## Phase 3 — Content with a local angle (ongoing, low effort)
 You already post daily for Liftaroo. Don't build a new machine — add a local layer:
 - 1–2 of your weekly "[Verb], Dumbass"-style videos get a **Rockaway backdrop** (boardwalk, beach) + "I train people at home here on the peninsula — link in bio." Geotag Rockaway Beach.
-- New IG handle **@trainwithjay** (or claim it now even if you cross-post). Bio: "At-home personal training · The Rockaways · text (347) 671-2813."
+- New IG handle **@trainwithjay** (or claim it now even if you cross-post). Bio: "At-home personal training · The Rockaways · text (347) 313-8748."
 - **Google Business Profile posts** weekly (a photo + one tip). Nobody does this; Google rewards it.
 - After every milestone ("Maria's first 10 push-ups"), ask the client for a **Google review** — text them the direct review link. 10 reviews = you own local search. This is the highest-ROI ask in the whole plan.
 

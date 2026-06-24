@@ -66,6 +66,6 @@ Counter cards / one-pager. Good for the GLP-1 muscle-loss message (their custome
 ```
 Jamal Khan, MPA, CSCS
 Rockaway Trainer
-jamal@rockawaytrainer.com | (347) 671-2813
+jamal@rockawaytrainer.com | (347) 313-8748
 ```
 (No website line — Gmail wraps any URL in an ugly google.com/url tracking link, so it's left out. The domain still shows in the email address.)
