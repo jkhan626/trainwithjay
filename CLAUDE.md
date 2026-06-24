@@ -19,6 +19,7 @@ Jamal's **in-person, in-home personal training** business for the Rockaway penin
 - **Netlify site:** `trainwithjay` (project id d1b71177-b730-4175-bfc4-2e5db36f908a), live at https://trainwithjay.netlify.app
 - **Deploy:** `netlify deploy --prod --dir=.` from this folder (folder is netlify-linked). Repo is NOT wired to auto-deploy — manual deploys.
 - **Domain:** `rockawaytrainer.com` (**primary** as of June 23, 2026) + `jaytraining.com` (now 301-redirects *into* rockawaytrainer.com via `_redirects`). Both registered on Namecheap, both set on the Netlify site with www aliases, DNS live (A `@` → 75.2.60.5). Canonical/JSON-LD point at rockawaytrainer.com. Netlify primary domain = rockawaytrainer.com (set via `netlify api updateSite`; flipping it is required *before* deploying any redirect change or you get a redirect loop).
+- **Email — `jamal@rockawaytrainer.com` (set up June 23, 2026, free).** Receives via **ImprovMX** (free forwarding → `jamalknyc@gmail.com`; MX `mx1/mx2.improvmx.com`, SPF `v=spf1 include:spf.improvmx.com ~all`, DNS at Namecheap). Sends via **Gmail "Send mail as"** using **Gmail's own SMTP** (`smtp.gmail.com:587`, username = full Gmail address, password = a Google App Password) — NOT ImprovMX SMTP (that's premium). Same method as `support@liftaroo.app`. Full reusable recipe in the master `Claude/CLAUDE.md` → "Setting Up Free Custom-Domain Email."
 
 ## Design system
 - Palette: sand `#FBF6EC` / deep sand `#F3EAD8` / ink `#16242F` / lifeguard orange `#E2572B` (deep `#C44320`) / seafoam `#7FB6A4`
