@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Articles | Rockaway Trainer</title>
+<meta name="description" content="The Rockaway Trainer column: plain, practical fitness advice for the Rockaways, written by Jamal Khan, CSCS, for The Wave.">
+<link rel="canonical" href="https://rockawaytrainer.com/articles/">
+<meta property="og:title" content="Articles | Rockaway Trainer">
+<meta property="og:description" content="The Rockaway Trainer column: plain, practical fitness advice for the Rockaways.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://rockawaytrainer.com/articles/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..900&family=Karla:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --sand:#FBF6EC;
+  --sand-deep:#F3EAD8;
+  --ink:#16242F;
+  --ink-soft:#3D4F5C;
+  --orange:#E2572B;
+  --orange-deep:#C44320;
+  --line:rgba(22,36,47,.14);
+  --serif:"Fraunces",Georgia,serif;
+  --sans:"Karla",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--sans);background:var(--sand);color:var(--ink);line-height:1.6}
+::selection{background:var(--orange);color:var(--sand)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+
+nav{display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-bottom:1px solid var(--line)}
+.logo{font-family:var(--serif);font-weight:700;font-size:21px;text-decoration:none;color:var(--ink)}
+.nav-links{display:flex;gap:26px;align-items:center}
+.nav-links a{color:var(--ink-soft);text-decoration:none;font-weight:700;font-size:14px}
+.nav-links a:hover{color:var(--orange)}
+.btn{display:inline-block;background:var(--orange);color:#fff;text-decoration:none;font-weight:800;font-size:15px;padding:13px 26px;border-radius:10px;border:none}
+.btn:hover{background:var(--orange-deep)}
+.nav-cta{padding:10px 20px;font-size:14px}
+.nav-right{display:flex;gap:26px;align-items:center}
+.menu-btn{display:none;background:none;border:none;cursor:pointer;padding:4px}
+.menu-btn span{display:block;width:22px;height:2px;background:var(--ink);margin:5px 0}
+@media(max-width:760px){
+  nav{position:relative}
+  .nav-right{gap:14px}
+  .menu-btn{display:block}
+  .nav-links{
+    display:none;position:absolute;top:100%;left:-24px;right:-24px;z-index:50;
+    flex-direction:column;align-items:stretch;gap:0;background:var(--sand);
+    border-bottom:1px solid var(--line);padding:6px 24px 14px;
+  }
+  nav.open .nav-links{display:flex}
+  .nav-links a{padding:10px 0;font-size:16px}
+}
+
+.page-head{padding:52px 0 8px;max-width:720px}
+h1{font-family:var(--serif);font-size:clamp(32px,5vw,46px);font-weight:700;line-height:1.1;letter-spacing:-.015em}
+.page-head p{margin-top:14px;font-size:17px;color:var(--ink-soft)}
+
+.article-list{padding:32px 0 64px;display:grid;gap:18px;max-width:720px}
+.article-card{
+  display:block;background:#fff;border:1px solid var(--line);border-radius:12px;
+  padding:26px 28px;text-decoration:none;color:var(--ink);
+}
+.article-card:hover h2{color:var(--orange-deep)}
+.card-meta{font-size:14px;color:var(--ink-soft);margin-bottom:8px}
+.article-card h2{font-family:var(--serif);font-size:26px;font-weight:700;line-height:1.15}
+.article-card p{margin-top:10px;color:var(--ink-soft);font-size:16px}
+.card-read{display:inline-block;margin-top:14px;font-weight:800;font-size:14px;color:var(--orange-deep)}
+
+footer{border-top:1px solid var(--line);padding:34px 24px 44px;text-align:center;font-size:14px;color:var(--ink-soft)}
+.foot-logo{font-family:var(--serif);font-weight:700;font-size:18px;color:var(--ink);margin-bottom:6px}
+footer a{color:var(--orange-deep);font-weight:700;text-decoration:none}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <nav>
+    <a class="logo" href="/">Rockaway Trainer</a>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="/#how">How it works</a>
+        <a href="/#about">About</a>
+        <a href="/#price">Pricing</a>
+        <a href="/homeworkout/">Home workout</a>
+        <a href="/articles/">Articles</a>
+      </div>
+      <a class="btn nav-cta" href="sms:+13473138748">Text Jamal</a>
+      <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <header class="page-head">
+    <h1>Articles</h1>
+    <p>I write a column called The Rockaway Trainer for The Wave, Rockaway's newspaper. Plain, practical fitness advice for people who live here. Each piece gets posted on this page.</p>
+  </header>
+
+  <div class="article-list">
+    <a class="article-card" href="/articles/lose-the-fat-keep-the-muscle/">
+      <div class="card-meta">The Rockaway Trainer &middot; June 2026</div>
+      <h2>Lose the Fat, Keep the Muscle</h2>
+      <p>Rockaway is getting slimmer, and a lot of it is GLP-1s like Ozempic and Mounjaro. The medications work, but without strength training a good chunk of the weight that comes off can be muscle. Here are the two things that protect it.</p>
+      <span class="card-read">Read the article</span>
+    </a>
+  </div>
+</div>
+
+<footer>
+  <div class="foot-logo">Rockaway Trainer</div>
+  <p>At-home personal training &middot; Rockaway Beach, NY 11694</p>
+  <p><a href="sms:+13473138748">Text</a> &middot; <a href="tel:+13473138748">Call</a> &middot; <a href="mailto:jamal@rockawaytrainer.com">Email</a> &middot; <a href="/homeworkout/">Free home workout</a></p>
+</footer>
+
+<script>
+(function(){
+  var btn=document.querySelector('.menu-btn'),nav=document.querySelector('nav');
+  btn.addEventListener('click',function(){
+    var open=nav.classList.toggle('open');
+    btn.setAttribute('aria-expanded',open?'true':'false');
+  });
+})();
+</script>
+
+</body>
+</html>

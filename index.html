@@ -94,7 +94,21 @@ nav{
 }
 .btn:hover{background:var(--orange-deep)}
 .nav-cta{padding:10px 20px;font-size:14px}
-@media(max-width:640px){.nav-links a:not(.btn){display:none}}
+.nav-right{display:flex;gap:26px;align-items:center}
+.menu-btn{display:none;background:none;border:none;cursor:pointer;padding:4px}
+.menu-btn span{display:block;width:22px;height:2px;background:var(--ink);margin:5px 0}
+@media(max-width:760px){
+  nav{position:relative}
+  .nav-right{gap:14px}
+  .menu-btn{display:block}
+  .nav-links{
+    display:none;position:absolute;top:100%;left:-24px;right:-24px;z-index:50;
+    flex-direction:column;align-items:stretch;gap:0;background:var(--sand);
+    border-bottom:1px solid var(--line);padding:6px 24px 14px;
+  }
+  nav.open .nav-links{display:flex}
+  .nav-links a{padding:10px 0;font-size:16px}
+}
 
 /* ---------- hero ---------- */
 .hero{padding:56px 0 64px}
@@ -264,11 +278,18 @@ footer .foot-logo{font-family:var(--serif);font-weight:700;font-size:18px;color:
 <div class="wrap">
   <nav>
     <a class="logo" href="#">Rockaway Trainer</a>
-    <div class="nav-links">
-      <a href="#how">How it works</a>
-      <a href="#about">About</a>
-      <a href="#price">Pricing</a>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="#how">How it works</a>
+        <a href="#about">About</a>
+        <a href="#price">Pricing</a>
+        <a href="/homeworkout/">Home workout</a>
+        <a href="/articles/">Articles</a>
+      </div>
       <a class="btn nav-cta" href="sms:+13473138748">Text Jamal</a>
+      <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </nav>
 
@@ -462,12 +483,29 @@ footer .foot-logo{font-family:var(--serif);font-weight:700;font-size:18px;color:
   <div class="foot-logo">Rockaway Trainer</div>
   <p>At-home personal training &middot; Rockaway Beach, NY 11694</p>
   <p><a href="sms:+13473138748">Text</a> &middot; <a href="tel:+13473138748">Call</a> &middot; <a href="mailto:jamal@rockawaytrainer.com">Email</a> &middot; <a href="https://liftaroo.app">Liftaroo, the app we train on</a></p>
+  <p><a href="/homeworkout/">Free home workout</a> &middot; <a href="/articles/">Articles</a></p>
   <p style="margin-top:14px;opacity:.7">&copy; 2026 Rockaway Trainer &middot; (347) 313-8748 &middot; jamal@rockawaytrainer.com &middot; Serving the Rockaway Peninsula</p>
 </footer>
 
 <div class="sticky-cta">
   <a href="sms:+13473138748">Text Jamal to book &middot; (347) 313-8748</a>
 </div>
+
+<script>
+(function(){
+  var btn=document.querySelector('.menu-btn'),nav=document.querySelector('nav');
+  btn.addEventListener('click',function(){
+    var open=nav.classList.toggle('open');
+    btn.setAttribute('aria-expanded',open?'true':'false');
+  });
+  document.querySelectorAll('.nav-links a').forEach(function(a){
+    a.addEventListener('click',function(){
+      nav.classList.remove('open');
+      btn.setAttribute('aria-expanded','false');
+    });
+  });
+})();
+</script>
 
 </body>
 </html>
