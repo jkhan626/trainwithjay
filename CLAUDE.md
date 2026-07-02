@@ -21,19 +21,20 @@ Jamal's **in-person, in-home personal training** business for the Rockaway penin
 - **Domain:** `rockawaytrainer.com` (**primary** as of June 23, 2026) + `jaytraining.com` (now 301-redirects *into* rockawaytrainer.com via `_redirects`). Both registered on Namecheap, both set on the Netlify site with www aliases, DNS live (A `@` → 75.2.60.5). Canonical/JSON-LD point at rockawaytrainer.com. Netlify primary domain = rockawaytrainer.com (set via `netlify api updateSite`; flipping it is required *before* deploying any redirect change or you get a redirect loop).
 - **Email — `jamal@rockawaytrainer.com` (set up June 23, 2026, free).** Receives via **ImprovMX** (free forwarding → `jamalknyc@gmail.com`; MX `mx1/mx2.improvmx.com`, SPF `v=spf1 include:spf.improvmx.com ~all`, DNS at Namecheap). Sends via **Gmail "Send mail as"** using **Gmail's own SMTP** (`smtp.gmail.com:587`, username = full Gmail address, password = a Google App Password) — NOT ImprovMX SMTP (that's premium). Same method as `support@liftaroo.app`. Full reusable recipe in the master `Claude/CLAUDE.md` → "Setting Up Free Custom-Domain Email."
 
-## Design system
-- Palette: sand `#FBF6EC` / deep sand `#F3EAD8` / ink `#16242F` / lifeguard orange `#E2572B` (deep `#C44320`) / seafoam `#7FB6A4`
-- Fonts: **Fraunces** (display, variable SOFT/WONK) + **Karla** (body)
-- Signature elements: beach-block badges (B. 91st → Breezy), neighborhood ticker, hard offset shadows, paper-grain overlay
+## Design system (revamped July 2, 2026 — "de-AI" pass)
+- Palette: sand `#FBF6EC` / deep sand `#F3EAD8` / ink `#16242F` / lifeguard orange `#E2572B` (deep `#C44320`)
+- Fonts: **Fraunces** (display) + **Karla** (body)
+- **July 2, 2026: Jamal asked for the site to look less "AI."** Removed and do NOT reintroduce: scroll-reveal/staggered animations, the neighborhood marquee ticker, rotated badge chips, hard offset "neo-brutalist" shadows, paper-grain overlay, uppercase orange kicker labels, italic-orange accent words inside headlines, punchline-style headlines, bold zingers at the end of FAQ answers. Keep it plain: real photos, simple cards with 1px borders, plain section headers ("How it works", "Pricing", "About me"). Run new copy through the humanizer skill.
+- Photos carry the design now: `photos/jamal-inhome-session.jpg` (hero — real session in a client's living room), `photos/jamal-headshot-gym.jpg` (About), `photos/jay-dog.jpg` (equipment strip), `photos/jay-boardwalk.jpg` (Where I train). `jay-race.jpg` currently unused.
 - Distinct from Liftaroo's cream/teal on purpose — don't converge them.
 
 ## Content rules
 - **Never** mention or hint at steroids/PEDs (family privacy — same rule as all Jamal marketing).
-- **CSCS: PASSED June 22, 2026 — now claimed on the site.** The About copy reads "a CSCS (Certified Strength and Conditioning Specialist) through the NSCA and CPR/AED certified, with a nutrition coach certification on the way." Nutrition cert is still in progress (PN1 under consideration, but **deferred until he has paying clients** — see Marketing preferences). No fake testimonials. Credentials are now CSCS + CPR/AED + 25 years under the bar + built Liftaroo.
+- **CSCS: PASSED June 22, 2026 — now claimed on the site.** As of the July 2, 2026 revamp the About copy claims CSCS (NSCA) + CPR/AED only; the earlier "nutrition coach certification on the way" line was DROPPED (cert is deferred until paying clients, so claiming it was iffy — Jamal can veto). No fake testimonials. Credentials are CSCS + CPR/AED + 25 years under the bar + built Liftaroo.
 - **No em dashes in site copy** (Jamal's rule, June 10 2026) — use periods, commas, colons, or parentheses.
 - **No emojis in site copy** (Jamal's rule, June 10 2026). The orange ✓ CSS list bullets are fine; pictographic emojis are not.
 - Voice: permission, not blame. Anti-gym-intimidation. Same voice as the "[Verb], Dumbass" series.
-- Photo placeholder in About section — swap in a real photo when Jamal provides one.
+- Real photos now live throughout the site (see Design system).
 
 ## Key docs
 - `MARKETING_PLAN.md` — full launch plan (researched June 2026: pricing data, competitor scan, local channels with phone numbers, legal/insurance, demographics).

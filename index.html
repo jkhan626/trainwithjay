@@ -117,7 +117,7 @@ h1{
 .hero-ctas{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
 .hero-note{font-size:14px;font-weight:700;color:var(--ink-soft)}
 .hero-photo{
-  width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:12px;display:block;
+  width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:12px;display:block;
 }
 @media(max-width:820px){.hero-photo{max-width:420px;aspect-ratio:1/1}}
 .hero-caption{font-size:13px;color:var(--ink-soft);margin-top:8px}
@@ -171,7 +171,7 @@ p+p{margin-top:14px}
 .about-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:48px;align-items:center}
 @media(max-width:820px){.about-grid{grid-template-columns:1fr}}
 .portrait{
-  width:100%;aspect-ratio:4/5;border-radius:12px;display:block;object-fit:cover;
+  width:100%;aspect-ratio:1/1;border-radius:12px;display:block;object-fit:cover;
 }
 @media(max-width:820px){.portrait{max-width:380px}}
 .about p{margin-bottom:14px;font-size:16.5px;color:var(--ink-soft)}
@@ -193,6 +193,9 @@ p+p{margin-top:14px}
 .fine{font-size:14px;color:var(--ink-soft);margin-top:16px}
 
 /* ---------- area ---------- */
+.area-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:48px;align-items:center}
+@media(max-width:820px){.area-grid{grid-template-columns:1fr}}
+.area-photo{width:100%;max-width:340px;aspect-ratio:4/5;object-fit:cover;border-radius:12px;display:block}
 .area-list{
   margin-top:24px;display:flex;flex-wrap:wrap;gap:10px 26px;max-width:70ch;
   list-style:none;
@@ -281,8 +284,8 @@ footer .foot-logo{font-family:var(--serif);font-weight:700;font-size:18px;color:
         </div>
       </div>
       <div>
-        <img class="hero-photo" src="photos/jay-boardwalk.jpg" alt="Jamal and his dog on the Rockaway boardwalk at dusk">
-        <p class="hero-caption">Me and Ziggy on the boardwalk, around Beach 94th.</p>
+        <img class="hero-photo" src="photos/jamal-inhome-session.jpg" alt="Jamal coaching a client through a band exercise in her living room">
+        <p class="hero-caption">Mid-session, in a client's living room. This is the whole gym.</p>
       </div>
     </div>
   </header>
@@ -345,10 +348,10 @@ footer .foot-logo{font-family:var(--serif);font-weight:700;font-size:18px;color:
 <section id="about">
   <div class="wrap">
     <div class="about-grid">
-      <img class="portrait" src="photos/jay-race.jpg" alt="Jamal running a local race">
+      <img class="portrait" src="photos/jamal-headshot-gym.jpg" alt="Jamal Khan, personal trainer in the Rockaways">
       <div class="about">
         <h2>About me</h2>
-        <p>I'm Jamal Khan. I live right here in the Rockaways, and I've been lifting for 25 years. I've gone through my powerlifting phase, my bodybuilding phase, and a running phase (that's me at a race out at Shirley, mid-grimace). These days my own training looks like what most of my clients are after: staying strong and healthy while the rest of life gets busier.</p>
+        <p>I'm Jamal Khan. I live right here in the Rockaways, and I've been lifting for 25 years. I've gone through my powerlifting phase, my bodybuilding phase, and a running phase. These days my own training looks like what most of my clients are after: staying strong and healthy while the rest of life gets busier.</p>
         <p>I'm a Certified Strength and Conditioning Specialist (CSCS) through the NSCA, and CPR/AED certified. I also built <b>Liftaroo</b>, a workout tracking app on the App Store. It's what we log your sessions in, so you can watch your numbers go up instead of taking my word for it.</p>
         <p>I don't do fads, and I won't shame you into anything. We do the basics, done right, in the time you actually have.</p>
       </div>
@@ -376,19 +379,27 @@ footer .foot-logo{font-family:var(--serif);font-weight:700;font-size:18px;color:
 
 <section id="area">
   <div class="wrap">
-    <h2>Where I train</h2>
-    <p class="lede">Anywhere on the peninsula, plus Broad Channel:</p>
-    <ul class="area-list">
-      <li>Belle Harbor</li>
-      <li>Neponsit</li>
-      <li>Rockaway Park</li>
-      <li>Rockaway Beach</li>
-      <li>Breezy Point</li>
-      <li>Broad Channel</li>
-      <li>Arverne</li>
-      <li>Far Rockaway</li>
-    </ul>
-    <p class="area-note">Just off the peninsula, in Howard Beach or thereabouts? Text me anyway. If the drive works, I'll make it work.</p>
+    <div class="area-grid">
+      <div>
+        <h2>Where I train</h2>
+        <p class="lede">Anywhere on the peninsula, plus Broad Channel:</p>
+        <ul class="area-list">
+          <li>Belle Harbor</li>
+          <li>Neponsit</li>
+          <li>Rockaway Park</li>
+          <li>Rockaway Beach</li>
+          <li>Breezy Point</li>
+          <li>Broad Channel</li>
+          <li>Arverne</li>
+          <li>Far Rockaway</li>
+        </ul>
+        <p class="area-note">Just off the peninsula, in Howard Beach or thereabouts? Text me anyway. If the drive works, I'll make it work.</p>
+      </div>
+      <div>
+        <img class="area-photo" src="photos/jay-boardwalk.jpg" alt="Jamal and his dog on the Rockaway boardwalk at dusk">
+        <p class="hero-caption">The boardwalk at dusk. Home turf.</p>
+      </div>
+    </div>
   </div>
 </section>
 
