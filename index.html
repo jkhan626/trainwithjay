@@ -120,7 +120,7 @@ h1{
   width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:12px;display:block;
 }
 @media(max-width:820px){.hero-photo{max-width:420px;aspect-ratio:1/1}}
-.hero-caption{font-size:13px;color:var(--ink-soft);margin-top:8px}
+.hero-caption{font-size:13px;color:var(--ink-soft);margin-top:8px;text-align:center}
 
 /* ---------- sections ---------- */
 section{padding:64px 0}
@@ -196,6 +196,7 @@ p+p{margin-top:14px}
 .area-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:48px;align-items:center}
 @media(max-width:820px){.area-grid{grid-template-columns:1fr}}
 .area-photo{width:100%;max-width:340px;aspect-ratio:4/5;object-fit:cover;border-radius:12px;display:block}
+.area-grid .hero-caption{max-width:340px}
 .area-list{
   margin-top:24px;display:flex;flex-wrap:wrap;gap:10px 26px;max-width:70ch;
   list-style:none;
@@ -285,7 +286,7 @@ footer .foot-logo{font-family:var(--serif);font-weight:700;font-size:18px;color:
       </div>
       <div>
         <img class="hero-photo" src="photos/jamal-inhome-session.jpg" alt="Jamal coaching a client through a band exercise in her living room">
-        <p class="hero-caption">Mid-session, in a client's living room. This is the whole gym.</p>
+        <p class="hero-caption">Mid-session, all we need is a little space.</p>
       </div>
     </div>
   </header>
