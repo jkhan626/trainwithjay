@@ -2,6 +2,15 @@
 > **Updated June 23, 2026:** rebranded Train With Jay → **Rockaway Trainer**; public name "Jay" → **Jamal**; primary domain → **rockawaytrainer.com**; price corrected to **$75** (the $60 in older drafts was stale); **CSCS earned June 22, 2026**. Jamal also opted out of warm-network/personal-social solicitation — Phase 1 below was rewritten accordingly.
 *In-home personal training · Rockaway peninsula (11694) · June 2026*
 
+## Wins & status (updated July 2, 2026)
+The inbound + earned-media + B2B strategy is working. Results so far:
+- **Recurring column in The Wave** (Rockaway's paper of record). Bi-weekly, called "The Rockaway Trainer." Editor Mark C. Healey (mhealey@rockawave.com). Column #1 on GLP-1 muscle preservation is written and sent. This is the earned-media authority play landing exactly as planned. Columns point readers to a free **/homeworkout** page (built, deploying once demo photos are shot).
+- **Beach NY Physical Therapy is turning into a referral partner.** Clinical director Nick Vourderis replied; in-person meeting set for Wed July 8, 2026. Post-rehab referrals were flagged as the #1 B2B channel, and it's converting. The hook that's working: offering to send progress notes back on referred patients.
+- **Full inbound loop is live:** website + lead-capture form + notifications + Google Voice number (347) 313-8748 (personal cell kept private).
+- **Print collateral done:** square business cards + a "tap or scan" table-tent desk sign (QR + NFC to the site) for referral-partner desks. Cards printing local (Rockaway Graphics / Belle Harbor Cards).
+- **Content engine:** Jamal writes the columns in his own voice; Claude scaffolds and runs a humanizer editing pass. Future topics banked (home workouts, strong after 50, knee health).
+- **Still open / next:** finish + verify the GBP (biggest inbound lever), deploy /homeworkout, follow up with non-responders (esp. Nicole), set up Nextdoor, work more PT/chiro and GLP-1 med-spa referral targets, and earn the NESTA GLP-1 Exercise Specialist cert (then add the title everywhere).
+
 ## The one-paragraph strategy
 Nobody offers in-home training on the peninsula — Svetness/FlexIt/Fyt claim Queens but won't make the trip, and every local option (Orangetheory, Burn Fitness, the YMCA) makes you come to them. 11694 is affluent ($104K+ median household; Belle Harbor/Neponsit higher), full of time-starved commuters and NYPD/FDNY/teacher families who hire **"one of us" through word of mouth**, not apps. So the plan (revised June 23, 2026): Jamal opted out of warm-network solicitation and personal-social pitching, so lead generation runs on **inbound + earned media + B2B referrals** — own local search (Google Business Profile + Nextdoor + the exact-match rockawaytrainer.com), earn a Rockaway Times feature, and build referral relationships with PTs and GLP-1 prescribers. Then let client referrals compound. The website converts and owns local search; the GBP and B2B intros are the lead sources. Honest tradeoff: slower to a first client than warm network would be, but it's the version Jamal will actually run.
 

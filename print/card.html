@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rockaway Trainer business card</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=Karla:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--sand:#FBF6EC;--ink:#16242F;--orange:#E2572B;--seafoam:#7FB6A4;}
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  @page{size:3.75in 2.25in;margin:0;}
+  html,body{background:#888;}
+  .card{width:3.75in;height:2.25in;overflow:hidden;position:relative;page-break-after:always;font-family:'Karla',system-ui,sans-serif;}
+  .card:last-child{page-break-after:auto;}
+  .pad{position:absolute;top:0.3in;right:0.3in;bottom:0.3in;left:0.3in;}
+
+  /* FRONT */
+  .front{background:var(--ink);color:var(--sand);}
+  .front .pad{display:flex;flex-direction:column;justify-content:center;}
+  .front .brand{font-family:'Fraunces';font-weight:900;font-style:italic;font-size:33px;line-height:0.98;letter-spacing:-0.01em;}
+  .front .brand em{color:var(--orange);font-style:italic;}
+  .front .tag{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--seafoam);margin-top:11px;font-weight:700;}
+  .front .sub{font-size:12px;color:rgba(245,238,221,.82);margin-top:9px;line-height:1.45;}
+
+  /* BACK */
+  .back{background:var(--sand);color:var(--ink);}
+  .back .pad{display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .back .name{font-family:'Fraunces';font-weight:800;font-size:16.5px;line-height:1.05;}
+  .back .cred{font-size:8px;text-transform:uppercase;letter-spacing:.05em;color:var(--orange);font-weight:700;margin:4px 0 9px;}
+  .back .info{font-size:11px;line-height:1.65;}
+  .back .info .strong{font-weight:700;}
+  .back .qr{text-align:center;flex-shrink:0;}
+  .back .qr img{width:0.98in;height:0.98in;display:block;}
+  .back .qr .scan{font-size:7.5px;text-transform:uppercase;letter-spacing:.08em;color:rgba(22,36,47,.55);margin-top:3px;font-weight:700;}
+</style>
+</head>
+<body>
+  <div class="card front">
+    <div class="pad">
+      <div class="brand">Rockaway <em>Trainer</em></div>
+      <div class="tag">In-home personal training</div>
+      <div class="sub">Strength training that comes to you.<br>The Rockaway peninsula.</div>
+    </div>
+  </div>
+
+  <div class="card back">
+    <div class="pad">
+      <div class="info">
+        <div class="name">Jamal Khan, CSCS</div>
+        <div class="cred">Certified Strength &amp; Conditioning Specialist</div>
+        <div class="strong">(347) 313-8748</div>
+        <div>jamal@rockawaytrainer.com</div>
+        <div>rockawaytrainer.com</div>
+      </div>
+      <div class="qr">
+        <img src="qr.png" alt="Scan to visit rockawaytrainer.com">
+        <div class="scan">Scan to start</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
